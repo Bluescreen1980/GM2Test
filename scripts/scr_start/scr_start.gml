@@ -3,7 +3,7 @@
 function scr_start(){
  global.debugtxt = "";
  global.debugverbose = 1;
- card_removal_pile = array_create (1,"empty"); 
+ card_removal_pile = array_create (0); 
  
  
  
