@@ -17,6 +17,7 @@ function array_value_exists( array, value )
     return count
 }
 
+
 function search_array(array, value){
 
 	var searchThisArray = array;

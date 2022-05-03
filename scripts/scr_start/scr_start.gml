@@ -2,5 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_start(){
  global.debugtxt = "";
+ global.debugverbose = 1;
  card_removal_pile = array_create (1,"empty"); 
+ 
+ 
+ 
+ init_cards();
+  
 }

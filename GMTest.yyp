@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"obj_fluxx_master","path":"objects/obj_fluxx_master/obj_fluxx_master.yy",},"order":0,},
     {"id":{"name":"scr_card_functions","path":"scripts/scr_card_functions/scr_card_functions.yy",},"order":1,},
     {"id":{"name":"scr_start","path":"scripts/scr_start/scr_start.yy",},"order":2,},
     {"id":{"name":"scr_array_functions","path":"scripts/scr_array_functions/scr_array_functions.yy",},"order":3,},
