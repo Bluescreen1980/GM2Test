@@ -21,12 +21,12 @@ function search_array(array, value){
 
 	var searchThisArray = array;
 	    lookForThisValue = value;
-		index_number = 0;
-
+		index_n = 0;
 	var arrayHasValue = false;
+	
 	for (var i = 0, iLen = array_length_1d(searchThisArray); i < iLen; i++) {
 	   if (searchThisArray[i] == lookForThisValue) {
-	       index_number = i;
+	       index_n = i;
 	       break;
 	   }
 	}

@@ -4,6 +4,7 @@ function add_card(crd){
 	array_push(card_pack,crd);
 }
 
+
 function remove_card(crd){
 	if (is_numeric(crd)){
 			c = array_get(card_pack,crd);
@@ -15,7 +16,11 @@ function remove_card(crd){
 		card_exists = array_value_exists(card_pack, crd )
 		
 		if(card_exists > 0){
-		
+			n = search_array(card_pack, crd)
+			c = array_get(card_pack,n);
+			array_push(card_removal_pile,c);
+			array_delete(card_pack,n);
+			
 		};
 		
 	};
