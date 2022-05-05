@@ -10,3 +10,8 @@
  
  room_goto(rm_lose)
  }
+ else if (global.hours <= 4){
+ 
+ global.night = 1;
+ 
+ }

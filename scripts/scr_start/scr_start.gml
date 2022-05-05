@@ -17,5 +17,6 @@ function scr_start(){
  global.windowlocked = 1;
  global.lockedstate = 1;
  
+ 
   
 }
