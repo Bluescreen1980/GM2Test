@@ -4,7 +4,7 @@
     "path": "texturegroups/Default",
   },
   "sequence": {
-    "spriteId": {"name":"obj_kassakaappi","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},
+    "spriteId": {"name":"spr_kassakaappi","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -16,7 +16,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c9a0f008-c0f7-4c04-b27c-9875cb0b7403","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c670793c-858c-403c-afea-fe070504582d","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0c350e2b-5b6b-4a39-8475-6aa688d927a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5127695-24b3-433b-a79a-d9dbd14b4947","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -33,9 +33,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"obj_kassakaappi","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},
+    "parent": {"name":"spr_kassakaappi","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},
     "resourceVersion": "1.4",
-    "name": "obj_kassakaappi",
+    "name": "spr_kassakaappi",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -60,20 +60,20 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c670793c-858c-403c-afea-fe070504582d","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c670793c-858c-403c-afea-fe070504582d","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},"LayerId":{"name":"7666d5ac-0d26-4615-b30f-bcd3d23b3b7e","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"obj_kassakaappi","path":"sprites/obj_kassakaappi/obj_kassakaappi.yy",},"resourceVersion":"1.0","name":"c670793c-858c-403c-afea-fe070504582d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5127695-24b3-433b-a79a-d9dbd14b4947","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5127695-24b3-433b-a79a-d9dbd14b4947","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},"LayerId":{"name":"d74d379a-0614-4530-a54d-4f9e05daef5d","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_kassakaappi","path":"sprites/spr_kassakaappi/spr_kassakaappi.yy",},"resourceVersion":"1.0","name":"a5127695-24b3-433b-a79a-d9dbd14b4947","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7666d5ac-0d26-4615-b30f-bcd3d23b3b7e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d74d379a-0614-4530-a54d-4f9e05daef5d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_kassakaappi",
+  "name": "spr_kassakaappi",
   "tags": [],
   "resourceType": "GMSprite",
 }

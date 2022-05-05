@@ -25,12 +25,12 @@ function search_array(array, value){
 		index_n = 0;
 	var arrayHasValue = false;
 	
-	for (var i = 0, iLen = array_length_1d(searchThisArray); i < iLen; i++) {
-	   if (searchThisArray[i] == lookForThisValue) {
-	       index_n = i;
-	       break;
-	   }
-	}
+		for (var i = 0, iLen = array_length_1d(searchThisArray); i < iLen; i++) {
+		   if (searchThisArray[i] == lookForThisValue) {
+		       index_n = i;
+		       break;
+		   }
+		}
 
-		return index_number;	
+		return index_n;	
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ikkuna",
-    "path": "sprites/spr_ikkuna/spr_ikkuna.yy",
+    "name": "spr_kassakaappi",
+    "path": "sprites/spr_kassakaappi/spr_kassakaappi.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ikkuna",
+  "name": "obj_kassakaappi",
   "tags": [],
   "resourceType": "GMObject",
 }

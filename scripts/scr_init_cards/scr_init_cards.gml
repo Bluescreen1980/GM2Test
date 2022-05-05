@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function init_cards(){
 
-	card_pack = [ "Club8","SpadeAce","ClubAce","Spade8"];
-
-
+	global.card_pack = [ "Hairpin","File","Butter knife","Screwdriver","Wrench","Old key", "Garden Gnome","Compass","Code paper"];
+	global.player_hand = [];
+	global.card_removal_pile = [];
 }
 
 
