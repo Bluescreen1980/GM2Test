@@ -9,6 +9,7 @@ function scr_start(){
  init_cards();
  
  //prototyyppi 1 linjoja
+ global.winorlose = 0; // 1 voitto 2 häviö
  global.night = 0;
  global.hours = 12;
  global.message = "You wake up in a room, head empty.";
@@ -17,6 +18,11 @@ function scr_start(){
  global.windowlocked = 1;
  global.lockedstate = 1;
  
- 
+ randomise();
+ c = howmany_card();
+ global.r1 = (irandom_range(0,c-1));
+ // global.debugtxt = global.r1;
+ //global.debugtxt = c;
+ global.r2 = global.r1;
   
 }

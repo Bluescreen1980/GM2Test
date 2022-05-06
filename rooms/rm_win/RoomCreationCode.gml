@@ -1,0 +1,1 @@
+global.winorlose = 1;

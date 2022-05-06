@@ -6,12 +6,12 @@ n = check_player_card(locked_with);
 
 if (lock == global.lockedstate  && n < 1){
 
-		global.message = "Old door which is locked. Maybe there is a key somewhere?"
+		global.message = "Old door which is locked. Maybe there is a way to loosen up bars?"
 	
 	
 }
 else if (lock != global.lockedstate || n >= 1)  {
-	global.message = "Old door is open!"
+	global.message = "Window is open!"
 
 	if (lock == 1) { lock = 0} else if (lock == 0) { lock = 1};
 

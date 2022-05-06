@@ -1,16 +1,31 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function give_random_card(){
+function random_card(){
+	crd = "";
 	c = howmany_card();
 	
 	if (c > 0){
 	r = (irandom_range(0,c-1));
+	crd = read_card(r);
+	global.recentcard = string(switchcard);
+	global.debugtxt = c;
+	}
+	return crd;
+}
+
+function give_random_card(){
+	c = howmany_card();
+	
+	if (c > 0){
+	randomise();
+	r = (irandom_range(0,c-1));
+	}
 	switchcard = read_card(r);
 	add_player_card(switchcard);
 	remove_card(r);
 	global.recentcard = string(switchcard);
 	global.debugtxt = c;
-	}
+	
 }
 
 function give_one_card(r){
@@ -64,7 +79,20 @@ function remove_card(crd){
 		
 	};
  
- 
+ function check_player_card(crd) { 
+
+		card_exists = array_value_exists(global.player_hand, crd)
+
+		if (card_exists > 0)
+		{
+		// global.debugtxt = card_exists;
+		return card_exists; 		 
+		}
+		else {
+		return 0;
+		}
+};		
+		
 function remove_player_card(crd){
 	
 	n = 0;
